@@ -3,6 +3,7 @@ a{
     @include text;
     font-size: 1em;
     text-decoration: none;
+    
 
     &:hover{
         text-decoration: underline;
@@ -17,6 +18,8 @@ a{
             font-size: 0.8em;
             margin-left: 0.5em;
             margin-top: -0.9em;
+           
+           
         }
     }
 }

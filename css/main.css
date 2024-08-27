@@ -9,7 +9,7 @@
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-html, body, div, header, footer, main, aside, nav, blockquote {
+html, body, div, header, footer, main, aside, nav, blockquote, p, span {
   margin: 0;
   padding: 0;
 }
@@ -24,16 +24,6 @@ body {
   font-style: normal;
   font-size: 16px;
   color: #535656;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-h1 {
-  font-size: 170px;
 }
 
 .wrapper {
@@ -128,4 +118,44 @@ a[target=_blank]::after {
 .btn-menu:hover {
   transition: 0.25s;
   text-decoration: none;
+}
+
+p {
+  margin: 0;
+  padding-top: 0rem;
+  padding-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none !important;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 14px;
 }/*# sourceMappingURL=main.css.map */

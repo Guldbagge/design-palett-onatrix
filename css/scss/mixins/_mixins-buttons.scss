@@ -1,36 +1,11 @@
-@mixin button-colors($bg-color, $text-color, $hover-bg-color, $hover-text-color, $border-color: null, $hover-border-color: null){
-    background-color: $bg-color;
-    color: $text-color;
-    border-color: if($border-color, $border-color, $bg-color);
-    -webkit-tap-higland-color: transparent;
-    -webkit-tap-higland-color: rba(0,0,0,0);
-    outline: none !important;
-    &:hover{
-        background-color: $hover-bg-color;
-        color: $hover-text-color;
-        border-color: if($hover-border-color, $hover-border-color, $hover-bg-color);
-    }
-    &:hover, &:focus, &:active{
-        outline: none !important;
-    }
+
+@mixin button{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
-// @mixin btn {
-//     display: inline-block;
-//     cursor: pointer;
-//     padding: 15px 40px;
-//     border: 1px solid;
-//     border-radius: 3px;
-//     font-size: 1rem;
-//     text-decoration: none !important;
-//     transition: 0.3s;
-//     background-color: transparent;
-//     @include button;
-    
-//     &:hover, &:focus, &:active{
-//         text-decoration: none;
-//     }
-// }
+
 
 @mixin btn {
     display: inline-block;
