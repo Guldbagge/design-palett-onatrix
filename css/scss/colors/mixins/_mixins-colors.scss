@@ -5,6 +5,7 @@
     -webkit-tap-highlight-color: transparent;
     -webkit-tap-highlight-color: rba(0,0,0,0);
     outline: none !important;
+
     &:hover{
         background-color: var($hover-bg-color);
         color: var($hover-text-color);
@@ -15,7 +16,7 @@
     }
 }
 
-@mixin theme-buttons($bg-color, $btn-dark-color, $btn-primary-color, $btn-secondary-color, $btn-accent-color, $btn-gray-color, $btn-light-color){
+@mixin theme-buttons($bg-color, $btn-dark-color, $btn-primary-color, $btn-secondary-color, $btn-accent-color, $btn-gray-color, $btn-light-color, $btn-menu-colors){
     .btn-dark {
         @include button-colors($btn-dark-color...);
     }
@@ -38,6 +39,10 @@
 
     .btn-light {
         @include button-colors($btn-light-color...);
+    }
+
+    .btn-menu {
+        @include button-colors($btn-menu-colors...);
     }
 
     
