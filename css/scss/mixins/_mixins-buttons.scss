@@ -35,8 +35,8 @@
     transition: 0.25s;
     text-decoration: none !important;
     outline: none !important;
-    -webkit-tap-higland-color: transparent;
-    -webkit-tap-higland-color: rba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    --webkit-tap-highlight-color: rba(0,0,0,0);
     background-color: transparent;
 
     &:hover{
