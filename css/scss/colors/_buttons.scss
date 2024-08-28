@@ -21,6 +21,71 @@
     @include button-colors(--color-primary, --color-secondary, --color-accent, --color-primary);
 }
 
+@include theme-buttons(
+    'dark',
+    (--color-dark, --color-light, --color-accent, --color-primary, --color-border-light),
+    (--color-primary, --color-secondary, --color-accent, --color-primary, --color-border-dark),
+    (--color-secondary, --color-primary, --color-accent, --color-primary, --color-light),
+    (--color-accent, --color-primary, --color-primary, --color-secondary, --color-light),
+    (--color-primary, --color-secondary, --color-accent, --color-primary, --color-light),
+    (--color-gray, --color-primary, --color-accent, --color-primary, --color-light),
+    (--color-gray, --color-primary, --color-accent, --color-primary, --color-light) 
+);
+
+@include theme-buttons(
+    'primary',
+    (--color-dark, --color-light, --color-accent, --color-primary, --color-border-light),
+    (--color-primary, --color-secondary, --color-accent, --color-primary, --color-secondary),
+    (--color-secondary, --color-primary, --color-accent, --color-primary, --color-light),
+    (--color-accent, --color-primary, --color-primary, --color-secondary, --color-light),
+    (--color-gray, --color-dark, --color-accent, --color-primary, --color-accent),
+    (--color-gray, --color-primary, --color-accent, --color-primary, --color-light),
+    (--color-gray, --color-primary, --color-accent, --color-primary, --color-light) 
+);
+
+@include theme-buttons(
+    'secondary',
+    (--color-dark, --color-light, --color-accent, --color-primary, --color-border-light),
+    (--color-primary, --color-secondary, --color-accent, --color-primary, --color-border-dark),
+    (--color-secondary, --color-primary, --color-accent, --color-primary, --color-light),
+    (--color-accent, --color-primary, --color-primary, --color-secondary, --color-light),
+    (--color-primary, --color-secondary, --color-accent, --color-primary, --color-light),
+    (--color-gray, --color-primary, --color-accent, --color-primary, --color-light),
+    (--color-gray, --color-primary, --color-accent, --color-primary, --color-light) 
+);
+
+@include theme-buttons(
+    'accent',
+    (--color-dark, --color-light, --color-accent, --color-primary, --color-border-light),
+    (--color-primary, --color-secondary, --color-accent, --color-primary, --color-border-dark),
+    (--color-secondary, --color-primary, --color-accent, --color-primary, --color-light),
+    (--color-accent, --color-primary, --color-primary, --color-secondary, --color-light),
+    (--color-primary, --color-secondary, --color-accent, --color-primary, --color-light),
+    (--color-gray, --color-primary, --color-accent, --color-primary, --color-light),
+    (--color-gray, --color-primary, --color-accent, --color-primary, --color-light) 
+);
+
+@include theme-buttons(
+    'gray',
+    (--color-dark, --color-light, --color-accent, --color-primary, --color-border-light),
+    (--color-primary, --color-secondary, --color-accent, --color-primary, --color-border-dark),
+    (--color-secondary, --color-primary, --color-accent, --color-primary, --color-light),
+    (--color-accent, --color-primary, --color-primary, --color-secondary, --color-light),
+    (--color-primary, --color-secondary, --color-accent, --color-primary, --color-light),
+    (--color-gray, --color-primary, --color-accent, --color-primary, --color-light),
+    (--color-gray, --color-primary, --color-accent, --color-primary, --color-light) 
+);
+
+@include theme-buttons(
+    'light',
+    (--color-dark, --color-light, --color-accent, --color-primary, --color-border-light),
+    (--color-primary, --color-secondary, --color-accent, --color-primary, --color-border-dark),
+    (--color-secondary, --color-primary, --color-accent, --color-primary, --color-light),
+    (--color-accent, --color-primary, --color-primary, --color-secondary, --color-light),
+    (--color-primary, --color-secondary, --color-accent, --color-primary, --color-light),
+    (--color-gray, --color-primary, --color-accent, --color-primary, --color-light),
+    (--color-gray, --color-primary, --color-accent, --color-primary, --color-light) 
+);
 
 
 // @include theme-buttons(

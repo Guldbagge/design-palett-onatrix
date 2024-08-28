@@ -5,3 +5,9 @@ body{
 span{
     color: var(--color-secondary);
 }
+
+.bg-secondary{
+    span{
+        color: var(--color-primary);
+    }
+}
